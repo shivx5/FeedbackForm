@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/FeedBack_form/form1.css">
+    </head>
+
+<body>
+    <h2 style="text-align: center;">Give Your FeedBack Pls..!</h2>
+
+    <form name="feedbackform">
+
+        <div class="fullName">
+            <input type="text" name="fullName" placeholder="Enter full name" style=" margin-top: 20px" required>
+        </div>
+        <div class="d-flex" >
+            <div class="d-flex">
+                <input type="radio" name="type" id="General_Feedback"  value="General_Feedback" >
+                <label for="General_Feedback">General Feedback</label>
+            </div>
+            <div class="d-flex">
+                <input type="radio" name="type" id="Technical-Support" value="Technical-Support">
+                <label for="Technical-Support"> Technical Support</label>
+            </div>
+            <div class="d-flex">
+                <input type="radio" name="type" id="Contribution" value="Contribution">
+                <label for="Contribution"> Contribution</label>
+            </div>
+        </div>
+
+        <div>
+            <input type="email" placeholder="you@awesome.com" id="email" name="emailname" required>
+        </div>
+
+        <div>
+            <textarea id="entertextarea" cols="30" rows="10" placeholder="Enter your Text briefly..!" name="areaname" required></textarea>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="check" name="checkname" >
+            <label for="check" style="text-align: center; font-size: 12px">i accept terms and conditions</label>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
+
+    </form>
+    <form ></form>
+    <script src="/FeedBack_form/formtry.js" ></script>
+
+</body>
+   
+</html>
